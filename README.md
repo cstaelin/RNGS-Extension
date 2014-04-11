@@ -2,7 +2,7 @@ Random Number Generators
 
 by Adam MacKenzie
 
-Includes all of the core NetLogo probability distributions, as well as Negative Binomial, Beta, Lognormal and Poisson distributions.
+Includes all of the core NetLogo probability distributions, as well as Negative Binomial, Beta, Lognormal, Poisson and von Mises distributions.
 
 Broadens the scope of Dr. O'Sullivan's "Multiple Random Number Generator".
 
@@ -42,4 +42,7 @@ returns a random number from the Negative Binomial distribution with the given n
     rngs:rnd-beta stream_id alpha beta
 returns a random number from the Beta distribution with the given parameters.
 
-Updated to NetLogo 5.0 and augmented with the Lognormal and Poisson distributions by Charles Staelin, March 2014. 
+    rngs:rnd-vonmises stream_id k
+returns a random number from the von Mises distribution with the given parameter.
+
+Updated to NetLogo 5.0 and augmented with the Lognormal, Poisson and von Mises distributions by Charles Staelin, March 2014. 

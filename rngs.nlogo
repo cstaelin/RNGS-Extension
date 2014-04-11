@@ -29,7 +29,7 @@ to go
   repeat 10000 [
     set lstn lput rngs:rnd-norm 1 1 1 lstn
     set lstln lput rngs:rnd-lognormN 1 1 1 lstln
-    set lstln1 lput rngs:rnd-lognormL 1 4.4895 5.9099 lstln1
+    set lstln1 lput rngs:rnd-lognorm 1 4.4895 5.9099 lstln1
     set lstv lput rngs:rnd-vonmises 2 10 lstv
   ]
   
@@ -87,7 +87,7 @@ PLOT
 10
 891
 187
-VonMises
+von Mises
 random values
 frequency
 0.0
