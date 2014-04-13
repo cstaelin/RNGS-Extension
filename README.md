@@ -2,7 +2,7 @@ Random Number Generators
 
 by Adam MacKenzie
 
-Includes all of the core NetLogo probability distributions, as well as Negative Binomial, Beta, Lognormal, Poisson and von Mises distributions.
+Includes all of the core NetLogo probability distributions, as well as the Negative Binomial, Beta, Lognormal and von Mises distributions.
 
 Broadens the scope of Dr. O'Sullivan's "Multiple Random Number Generator".
 
